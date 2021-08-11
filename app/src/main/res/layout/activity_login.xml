@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".logindanregis.Login">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+            <ImageView
+                android:src="@drawable/tampilanataslogin"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:scaleType="fitXY"
+                android:src="@drawable/bahanbackgroundbawah"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:scrollbarThumbVertical="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                android:background="@drawable/efekbayangregisregis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:hintEnabled="true"
+                    app:boxCornerRadiusBottomStart="24dp"
+                    app:boxCornerRadiusBottomEnd="30dp"
+                    app:boxCornerRadiusTopEnd="30dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    app:boxCornerRadiusTopStart="24dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/emaillogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_baseline_email_24"
+                        android:fontFamily="casual"
+                        android:drawablePadding="12dp"
+                        android:hint="Email"
+                        android:importantForAutofill="no"
+                        android:layout_marginBottom="10dp"
+                        android:inputType="textEmailAddress" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/layout_password"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxCornerRadiusBottomStart="24dp"
+                    app:boxCornerRadiusBottomEnd="24dp"
+                    app:boxCornerRadiusTopEnd="24dp"
+                    app:boxCornerRadiusTopStart="24dp"
+                    app:hintEnabled="true"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/passwordlogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+                        android:fontFamily="casual"
+                        android:drawablePadding="12dp"
+                        android:hint="Password"
+                        android:importantForAutofill="no"
+                        android:inputType="textPassword" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <LinearLayout
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnlogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:paddingTop="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:paddingBottom="16dp"
+                        android:text="Login"
+                        android:backgroundTint="@color/ijomudabackgroud"
+                        android:textColor="#ffffff"
+                        app:cornerRadius="24dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:fontFamily="casual"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:text="Belum Punya Akun ?"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/daftarakun"
+                    android:layout_marginTop="12dp"
+                    android:paddingTop="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingBottom="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="Daftar Di Sini"
+                    android:backgroundTint="@color/Ijotua"
+                    android:textColor="#ffffff"
+                    app:cornerRadius="24dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

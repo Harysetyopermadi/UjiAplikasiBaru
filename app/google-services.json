@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "208149490895",
+    "project_id": "login-with-sqlite",
+    "storage_bucket": "login-with-sqlite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208149490895:android:6854c91db02942f0061bba",
+        "android_client_info": {
+          "package_name": "com.harysetyopermadi.loginwithsqlite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208149490895-ulobmtknkogtockhe2p3t0e1dsqm5uaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8LralLL6iGzlID5VMty-YXbFK41_-EXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208149490895-ulobmtknkogtockhe2p3t0e1dsqm5uaf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
