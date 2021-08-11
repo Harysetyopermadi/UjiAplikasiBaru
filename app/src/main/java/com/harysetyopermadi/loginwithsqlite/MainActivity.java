@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.harysetyopermadi.loginwithsqlite.logindanregis.Login;
 import com.harysetyopermadi.loginwithsqlite.logindanregis.Registrasi;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(getApplicationContext(),Registrasi.class));
+                startActivity(new Intent(getApplicationContext(), Login.class));
                 finish();
             }
         },3000);
