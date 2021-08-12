@@ -1,13 +1,12 @@
 package com.harysetyopermadi.loginwithsqlite;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.harysetyopermadi.loginwithsqlite.logindanregis.Login;
-import com.harysetyopermadi.loginwithsqlite.logindanregis.Registrasi;
 
 public class MainActivity extends AppCompatActivity {
 

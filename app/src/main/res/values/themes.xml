@@ -21,4 +21,8 @@
     <style name="Warnainput" parent="Widget.Design.TextInputLayout">
         <item name="android:textColor">@color/ijomudabackgroud</item>
     </style>
+
+    <style name="GadadbarActivity" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
 </resources>
